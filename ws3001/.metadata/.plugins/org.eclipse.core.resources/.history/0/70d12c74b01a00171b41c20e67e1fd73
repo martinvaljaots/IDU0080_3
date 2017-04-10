@@ -1,0 +1,13 @@
+package ee.ttu.idu0080.raamatupood.client;
+
+import javax.jms.ExceptionListener;
+import javax.jms.JMSException;
+
+public class ExceptionListenerImpl implements ExceptionListener {
+
+	public synchronized void onException(JMSException ex) {
+		Consumer.getLog().error("JMS Exception occured. Shutting down client.");
+		ex.printStackTrace();
+	}
+
+}

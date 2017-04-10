@@ -1,0 +1,8 @@
+package ee.ttu.idu0080.raamatupood.types;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Tellimus {
+	public List<TellimuseRida> tellimuseRida;
+}

@@ -1,0 +1,38 @@
+package ee.ttu.idu0080.raamatupood.types;
+import java.math.BigDecimal;
+
+public class Toode {
+	int kood;
+	String nimetus;
+	BigDecimal hind;
+	
+	public Toode(int kood, String nimetus, BigDecimal hind){
+		this.kood = kood;
+		this.nimetus = nimetus;
+		this.hind = hind;
+	}
+	
+	public int getKood(){
+		return this.kood;
+	}
+	
+	public void setKood(){
+		kood = this.kood;
+	}
+	
+	public String getNimetus(){
+		return this.nimetus;
+	}
+	
+	public void setNimetus(){
+		nimetus = this.nimetus;
+	}
+	
+	public BigDecimal getHind(){
+		return this.hind;
+	}
+	
+	public void setHind(){
+		hind = this.hind;
+	}
+}

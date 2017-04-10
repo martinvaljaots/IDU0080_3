@@ -1,0 +1,160 @@
+package ee.ttu.idu0080.raamatupood.client;
+
+import java.math.BigDecimal;
+import java.util.List;
+
+import javax.jms.Connection;
+import javax.jms.Destination;
+import javax.jms.ExceptionListener;
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.MessageConsumer;
+import javax.jms.MessageListener;
+import javax.jms.MessageProducer;
+import javax.jms.ObjectMessage;
+import javax.jms.Session;
+import javax.jms.TextMessage;
+
+import org.apache.activemq.ActiveMQConnection;
+import org.apache.activemq.ActiveMQConnectionFactory;
+import org.apache.log4j.Logger;
+
+import ee.ttu.idu0080.raamatupood.server.EmbeddedBroker;
+import ee.ttu.idu0080.raamatupood.types.TellimuseRida;
+import ee.ttu.idu0080.raamatupood.types.Tellimus;
+
+/**
+ * JMS sĆµnumite tarbija. Ć�hendub broker-i urlile
+ * 
+ * @author Allar Tammik
+ * @date 08.03.2010
+ */
+public class Consumer implements MessageListener, ExceptionListener {
+	protected static final Logger log = Logger.getLogger(Consumer.class);
+	private String SUBJECT = "tellimuse.edastamine";
+	private String SUBJECT_ANSWER = "tellimuse.vastus";
+	private String user = ActiveMQConnection.DEFAULT_USER;
+	private String password = ActiveMQConnection.DEFAULT_PASSWORD;
+	private String url = EmbeddedBroker.URL;
+	private long timeToLive = 100000;
+	
+	private MessageProducer msgProducer;
+	private Session session;
+	//public ObjectMessage objectMessage;
+
+	public static void main(String[] args) {
+		Consumer consumerTool = new Consumer();
+		consumerTool.run();
+	}
+
+	public void run() {
+		Connection connection = null;
+		try {
+			Consumer consumer = new Consumer();
+			
+			log.info("Connecting to URL: " + url);
+			log.info("Consuming queue : " + SUBJECT);
+			System.out.println("Consuming queue : " + SUBJECT);
+			
+			// 1. Loome Ć¼henduse
+			ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory(user, password, url);
+			connection = connectionFactory.createConnection();
+
+			// Kui Ć¼hendus kaob, lĆµpetatakse Consumeri tĆ¶Ć¶ veateatega.
+			connection.setExceptionListener(consumer);
+
+			// KĆ¤ivitame Ć¼henduse
+			connection.start();
+
+			// 2. Loome sessiooni
+			/*
+			 * createSession vĆµtab 2 argumenti: 1. kas saame kasutada
+			 * transaktsioone 2. automaatne kinnitamine
+			 */
+			Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+
+			// Loome teadete sihtkoha (jĆ¤rjekorra). Parameetriks jĆ¤rjekorra nimi
+			Destination destination = session.createQueue(SUBJECT);
+			Destination answerDestination = session.createQueue(SUBJECT_ANSWER);
+
+			// 3. Teadete vastuvĆµtja
+			MessageConsumer msgConsumer = session.createConsumer(destination);
+			MessageProducer msgProducer = session.createProducer(answerDestination);
+			msgProducer.setTimeToLive(timeToLive);
+
+			// Kui teade vastu vĆµetakse kĆ¤ivitatakse onMessage()
+			msgConsumer.setMessageListener(consumer);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		} 
+	}
+
+	
+	private void sendAnswer(String answerMsg){
+		try{
+			TextMessage answer = session.createTextMessage(answerMsg);
+			log.debug("Sending answer: " + answer.getText());
+			System.out.println("Sending answer: " + answer.getText());
+			msgProducer.send(answer);
+			
+		}catch (JMSException e){
+			log.warn("Caught: " + e);
+			e.printStackTrace();
+		}
+	}
+	
+	
+
+	@Override
+	public void onException(JMSException ex) {
+		System.out.println("JMS Exception occured. Shutting down client.");
+		ex.printStackTrace();
+		
+	}
+
+	@Override
+	public void onMessage(Message message) {
+		try{
+			if (message instanceof TextMessage){
+				TextMessage txtMsg = (TextMessage) message;
+				String msg = txtMsg.getText();
+				System.out.println("\nNew text message: " + msg);
+			} else if (message instanceof ObjectMessage) {
+				ObjectMessage objMsg = (ObjectMessage) message;
+				
+				if(objMsg.getObject() instanceof Tellimus){
+					Tellimus tellimus = (Tellimus) objMsg.getObject();
+					BigDecimal tellimuseSumma = BigDecimal.ZERO;
+					
+					List<TellimuseRida> tellimuseRead = tellimus.getTellimuseRead();
+					System.out.println("Received order (" + tellimus.getTellimuseRead().size() + " products). Order: ");
+					
+					for (int i = 0; i < tellimuseRead.size(); i++){
+						TellimuseRida rida = tellimuseRead.get(i);
+						System.out.println("Product: " + rida.getToode().getNimetus());
+						
+						BigDecimal kogus = BigDecimal.valueOf(rida.getKogus());
+						System.out.println("amount: " + kogus);
+						
+						BigDecimal hind = rida.getToode().getHind();
+						System.out.println("price: " + hind);
+						
+						BigDecimal reaSumma = hind.multiply(kogus);
+						System.out.println("Line total: " + reaSumma + "\n");
+						
+						tellimuseSumma = tellimuseSumma.add(reaSumma);
+					}
+					System.out.println("----------------------------");
+					System.out.println("Order total: " + tellimuseSumma);
+					
+					String response = String.format("Product count total: %s, price total: %s.", tellimuseRead.size(), tellimuseSumma);
+					sendAnswer(response);
+					
+				}
+			}
+		} catch (JMSException e){
+			e.printStackTrace();
+		}
+	}
+}

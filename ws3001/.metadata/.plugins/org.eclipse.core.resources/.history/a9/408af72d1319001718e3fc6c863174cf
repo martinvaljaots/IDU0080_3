@@ -1,0 +1,21 @@
+package ee.ttu.idu0080.raamatupood.types;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
+public class TellimuseRida implements Serializable {
+	private static final long serialVersionUID = 1L;
+	public List<Tellimus> tellimuseRead;
+	
+	public TellimuseRida(){
+		tellimuseRead = new ArrayList <Tellimus>();
+	}
+	
+	public void addTellimuseRida(Tellimus tellimuseRida){
+		this.tellimuseRead.add(tellimuseRida);
+	}
+	
+	public List<Tellimus> getTellimuseRead(){
+		return tellimuseRead;
+	}
+}

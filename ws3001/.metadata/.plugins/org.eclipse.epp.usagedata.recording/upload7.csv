@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300787787968
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300787787968
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300787787984
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300787788265
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300787791500
+activated,view,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.internal.introview",1300787795750
+activated,view,org.eclipse.ui.views,3.4.1.M20090826-0800,"org.eclipse.ui.views.ContentOutline",1300787795765
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300787797890
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300787902359
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1300787904078
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.103.v200905151848,"org.eclipse.wst.ws.service.policy",1300787906453
+started,bundle,org.eclipse.wst.command.env,1.0.408.v200903110045,"org.eclipse.wst.command.env",1300787906687
+started,bundle,org.eclipse.wst.ws,1.1.103.v200903111822,"org.eclipse.wst.ws",1300787906687
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.0.v20090513-2000,"org.eclipse.ltk.core.refactoring",1300787907015
+started,bundle,org.eclipse.ltk.ui.refactoring,3.4.100.v20090604,"org.eclipse.ltk.ui.refactoring",1300787907015
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300787940125
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300787957828
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300787968156
+started,bundle,org.eclipse.core.variables,3.2.200.v20090521,"org.eclipse.core.variables",1300787997171
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300788006078
+executed,command,org.tigris.subversion.subclipse.ui,1.6.6,"org.tigris.subversion.subclipse.ui.branchtag",1300788006140
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300788006406
+error,log,,,"org.tigris.subversion.javahl.ClientException: Filesystem has no item\nsvn: '/svn/idu0080/!svn/bc/5295/ryhm00/Tarmo' path not found\n",1300788006531
+opened,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1300788006640
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300788017500

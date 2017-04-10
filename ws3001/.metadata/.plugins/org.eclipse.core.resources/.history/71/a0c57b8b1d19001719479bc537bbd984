@@ -1,0 +1,26 @@
+package ee.ttu.idu0080.raamatupood.types;
+import java.util.ArrayList;
+import java.util.List;
+//serialiseerib klassi state'i (olukorra)
+import java.io.Serializable;
+
+public class Tellimus implements Serializable {
+	private static final long serialVersionUID = 1L;
+	public List<Tellimus> tellimuseRead;
+	
+	public Tellimus(){
+		tellimuseRead = new ArrayList <Tellimus>();
+	}
+	
+	public void addTellimuseRida(TellimuseRida tellimuseRida){
+		this.tellimuseRead.add(tellimuseRida);
+	}
+	
+	public List<Tellimus> getTellimuseRead(){
+		return tellimuseRead;
+	}
+	
+	public String printTellimus(){
+		return "Tellimus [tellimuseRead=" + tellimuseRead + "]";
+	}
+}

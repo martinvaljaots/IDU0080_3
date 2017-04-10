@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="488" key="ChooseUrlDialog.size.x"/>
+	<item value="352" key="ChooseUrlDialog.size.y"/>
+	<item value="408" key="BranchTag.size.y"/>
+	<item value="570" key="BranchTag.size.x"/>
+	<item value="396" key="ChooseUrlDialog.location.x"/>
+	<item value="225" key="BranchTag.location.y"/>
+	<item value="195" key="ChooseUrlDialog.location.y"/>
+	<item value="355" key="BranchTag.location.x"/>
+	<item value="https://cloud.ld.ttu.ee/svn/idu0080/ryhm00/Tarmo/praktikum3_lahendus" key="UrlCombo.praktikum3_lahendus.0"/>
+	<section name="NewLocationWizard">
+		<list key="ConfigurationWizardMainPage.STORE_URL_ID">
+			<item value="https://cloud.ld.ttu.ee/svn/idu0080/"/>
+			<item value="https://cloud.ld.ttu.ee/svn/idu0080/praktikum/branches/praktikum3_lahendus"/>
+		</list>
+	</section>
+</section>

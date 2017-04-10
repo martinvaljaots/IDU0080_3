@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.jms.MessageProducer"/>
+<fullyQualifiedTypeName name="ee.ttu.idu0080.raamatupood.types.TellimuseRida"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="javax.jms.MessageConsumer"/>
+<fullyQualifiedTypeName name="ee.ttu.idu0080.raamatupood.client.Consumer.MessageListenerImpl"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
+</qualifiedTypeNameHistroy>

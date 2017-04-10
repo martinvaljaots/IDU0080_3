@@ -1,0 +1,8 @@
+package ee.ttu.idu0080.raamatupood.types;
+import java.math.BigDecimal;
+
+public class Toode {
+	int kood;
+	String nimetus;
+	BigDecimal hind;
+}

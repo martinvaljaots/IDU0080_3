@@ -1,0 +1,7 @@
+package ee.ttu.idu0080.raamatupood.client;
+
+public class VabrikConsumer {
+	public static void main(String args){
+		
+	}
+}
