@@ -652,3 +652,115 @@
 2017-04-10 20:40:15,199 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2017-04-10 20:40:15,214 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-04-10 20:40:15,214 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 20:57:23,557 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 20:57:23,566 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 20:57:23,582 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 20:57:23,582 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 20:58:14,697 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 20:58:14,713 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 20:58:14,728 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 20:58:14,728 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:05:24,272 [Worker-119] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:05:24,301 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:05:24,303 [Worker-119] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:05:24,309 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:05:30,881 [Worker-120] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:05:30,897 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:05:30,897 [Worker-120] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:05:30,912 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:09:27,951 [Worker-119] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:09:27,983 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:09:27,985 [Worker-119] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:09:27,991 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:12:41,526 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:12:41,549 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:12:41,555 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:12:41,561 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:19:39,976 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:19:39,998 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:19:39,998 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:19:39,998 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:19:49,717 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:19:49,748 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:19:49,748 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:19:49,748 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:22:55,372 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:22:55,388 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:22:55,388 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:22:55,403 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:23:35,814 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:23:35,838 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:23:35,843 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:23:35,850 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:26:42,473 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:26:42,489 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:26:42,489 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:26:42,505 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:27:31,311 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:27:31,346 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:27:31,352 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:27:31,359 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:28:30,773 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:28:30,779 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:28:30,779 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:28:30,794 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:29:26,785 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:29:26,800 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:29:26,822 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:29:26,828 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:29:35,763 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:29:35,785 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:29:35,787 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:29:35,794 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:30:13,390 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:30:13,421 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:30:13,421 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:30:13,437 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:31:55,389 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:31:55,404 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:31:55,404 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:31:55,404 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:32:49,124 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:32:49,151 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:32:49,158 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:32:49,165 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:34:39,845 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:34:39,859 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:34:39,859 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:34:39,859 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:34:47,358 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:34:47,374 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:34:47,390 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:34:47,390 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:36:16,601 [Worker-122] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:36:16,608 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:36:16,608 [Worker-122] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:36:16,624 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:36:45,644 [Worker-135] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:36:45,666 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:36:45,673 [Worker-135] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:36:45,673 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:37:41,937 [Worker-134] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:37:41,953 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:37:41,969 [Worker-134] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:37:41,969 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:37:54,438 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:37:54,453 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:37:54,469 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:37:54,469 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:38:50,515 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:38:50,546 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:38:50,546 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:38:50,546 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:39:30,621 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:39:30,637 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:39:30,653 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:39:30,653 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:42:36,990 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:42:37,006 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:42:37,006 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:42:37,021 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources
+2017-04-10 21:44:04,091 [Worker-134] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:44:04,118 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-10 21:44:04,124 [Worker-134] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1257 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 21:44:04,131 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Smarta\Documents\Ülikool\Magister\2. semester\Veebiteenused\ws3001\praktikum3_lahendus\src\test\resources

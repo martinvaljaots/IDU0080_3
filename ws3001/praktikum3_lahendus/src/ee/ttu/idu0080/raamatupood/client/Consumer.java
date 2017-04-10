@@ -31,73 +31,57 @@ import ee.ttu.idu0080.raamatupood.types.Tellimus;
  */
 public class Consumer implements MessageListener, ExceptionListener {
 	protected static final Logger log = Logger.getLogger(Consumer.class);
-	private String SUBJECT = "tellimuse.edastamine";
-	private String SUBJECT_ANSWER = "tellimuse.vastus";
-	private String user = ActiveMQConnection.DEFAULT_USER;
-	private String password = ActiveMQConnection.DEFAULT_PASSWORD;
-	private String url = EmbeddedBroker.URL;
-	private long timeToLive = 100000;
+	private static String SUBJECT = "tellimuse.edastamine";
+	private static String SUBJECT_ANSWER = "tellimuse.vastus";
+	private static String user = ActiveMQConnection.DEFAULT_USER;
+	private static String password = ActiveMQConnection.DEFAULT_PASSWORD;
+	private static String url = EmbeddedBroker.URL;
+	private static long timeToLive = 100000;
 	
-	private MessageProducer msgProducer;
-	private Session session;
+	private static MessageProducer msgProducer;
+	private static Session session;
 	//public ObjectMessage objectMessage;
 
-	public static void main(String[] args) {
-		Consumer consumerTool = new Consumer();
-		consumerTool.run();
-	}
-
-	public void run() {
+	public static void main(String[] args) throws JMSException {
+		Consumer consumer = new Consumer();
+		
+		log.info("Connecting to URL: " + url);
+		log.info("Consuming queue : " + SUBJECT);
+		System.out.println("Consuming queue : " + SUBJECT);
+		
+		// 1. Loome Ć¼henduse
 		Connection connection = null;
-		try {
-			Consumer consumer = new Consumer();
-			
-			log.info("Connecting to URL: " + url);
-			log.info("Consuming queue : " + SUBJECT);
-			System.out.println("Consuming queue : " + SUBJECT);
-			
-			// 1. Loome Ć¼henduse
-			ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory(user, password, url);
-			connection = connectionFactory.createConnection();
+		ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory(user, password, url);
+		connection = connectionFactory.createConnection();
+		// Kui Ć¼hendus kaob, lĆµpetatakse Consumeri tĆ¶Ć¶ veateatega.
+		connection.setExceptionListener(consumer);
 
-			// Kui Ć¼hendus kaob, lĆµpetatakse Consumeri tĆ¶Ć¶ veateatega.
-			connection.setExceptionListener(consumer);
+		// KĆ¤ivitame Ć¼henduse
+		connection.start();
 
-			// KĆ¤ivitame Ć¼henduse
-			connection.start();
+		// 2. Loome sessiooni
+		/*
+		 * createSession vĆµtab 2 argumenti: 1. kas saame kasutada
+		 * transaktsioone 2. automaatne kinnitamine
+		 */
+		session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+		// Loome teadete sihtkoha (jĆ¤rjekorra). Parameetriks jĆ¤rjekorra nimi
+		Destination destination = session.createQueue(SUBJECT);
+		Destination answerDestination = session.createQueue(SUBJECT_ANSWER);
 
-			// 2. Loome sessiooni
-			/*
-			 * createSession vĆµtab 2 argumenti: 1. kas saame kasutada
-			 * transaktsioone 2. automaatne kinnitamine
-			 */
-			//Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+		// 3. Teadete vastuvĆµtja
+		MessageConsumer msgConsumer = session.createConsumer(destination);
+		msgProducer = session.createProducer(answerDestination);
+		msgProducer.setTimeToLive(timeToLive);
 
-			// Loome teadete sihtkoha (jĆ¤rjekorra). Parameetriks jĆ¤rjekorra nimi
-			Destination destination = session.createQueue(SUBJECT);
-			Destination answerDestination = session.createQueue(SUBJECT_ANSWER);
-
-			// 3. Teadete vastuvĆµtja
-			MessageConsumer msgConsumer = session.createConsumer(destination);
-			MessageProducer msgProducer = session.createProducer(answerDestination);
-			msgProducer.setTimeToLive(timeToLive);
-
-			// Kui teade vastu vĆµetakse kĆ¤ivitatakse onMessage()
-			msgConsumer.setMessageListener(consumer);
-
-		} catch (Exception e) {
-			e.printStackTrace();
-		} 
+		// Kui teade vastu vĆµetakse kĆ¤ivitatakse onMessage()
+		msgConsumer.setMessageListener(consumer);
 	}
-
 	
 	private void sendAnswer(String answerMsg){
 		try{
-			System.out.println(answerMsg);
-			//msgProducer.send(session.createTextMessage());
 			TextMessage answer = session.createTextMessage(answerMsg);
 			log.debug("Sending answer: " + answer.getText());
-			System.out.println("Sending answer: " + answer.getText());
 			msgProducer.send(answer);
 			
 		}catch (JMSException e){
